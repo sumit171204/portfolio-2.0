@@ -10,6 +10,7 @@ import {
   DiHtml5,
   DiCss3,
   DiPhp,
+  DiWordpress,
 } from "react-icons/di";
 import {
   SiFirebase,
@@ -47,6 +48,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons" title="Firebase">
         <SiFirebase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="Wordpress">
+        <DiWordpress />
       </Col>
     </Row>
   );
